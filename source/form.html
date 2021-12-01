@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html class="page" lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Форма PINK»</title>
+</head>
+<body class="page__body">
+  <header class="page-header">
+    <a class="page-header__logo">
+      <img src="./img/pink-header.svg" width="74px" height="23px" alt="Логотип">
+    </a>
+    <nav class="main-nav">
+      <button class="main-nav_toggle" type="button" class="button-default main-nav__button"><span class="visualy-hidden">Открыть меню</span></button>
+</nav>
+<div class="page-header__title">
+  <p class="page-header__title-text">Конкурс на самое безбашенное<br> путешествие<br>с Пинк</p>
+</div>
+</header>
+<main class="form-wrapper">
+<div class="form-description">
+  <p class="form-description__text">Поделитесь своей историей и получите<br> шанс выиграть ценный приз&mdash;1000<br>миль на вашу бонусную карту!</p>
+</div>
+<form class="main-form">
+<div class="main-form__data">
+<p class="main-form__data-title">ФАМИЛИЯ:</p>
+<input type="text" class="main-form__data-text" placeholder="Укажите фамилию*">
+</div>
+<div class="main-form__data">
+  <p class="main-form__data-title">ИМЯ:</p>
+  <input type="text" class="main-form__data-text" placeholder="Введите ваше имя*">
+  </div>
+  <div class="main-form__data">
+    <p class="main-form__data-title">ОТЧЕСТВО:</p>
+    <input type="text" class="main-form__data-text" placeholder="Ну и отчество тоже*">
+    </div>
+    <div class="main-form__check">
+      <p class="main-form__check-title">ВАШИ БЕЗБАШЕННЫЕ<br>ДОСТИЖЕНИЯ В ПУТЕШЕСТВИИ</p>
+    </div>
+    <ul class="main-form__check-list">
+      <li class="main-form__check-list-item">
+        <input type="checkbox" class="visualy-hidden" id="selfie" name="selfie" checked>
+        <label for="selfie">Сделал селфи с акулой</label>
+      </li>
+      <li class="main-form__check-list-item">
+        <input type="checkbox" class="visualy-hidden" id="beach" name="beach" checked>
+        <label for="beach">Обгорел на пляже</label>
+      </li>
+      <li class="main-form__check-list-item">
+        <input type="checkbox" class="visualy-hidden" id="chak" name="chak">
+        <label for="chak">Видел Чака Норриса</label>
+      </li>
+      <li class="main-form__check-list-item">
+        <input type="checkbox" class="visualy-hidden" id="souvenirs" name="souvenirs">
+        <label for="souvenirs">Накупил сувениров</label>
+      </li>
+      <li class="main-form__check-list-item">
+        <input type="checkbox" class="visualy-hidden" id="towet" name="tower" checked>
+        <label for="tower">Удержал башню</label>
+      </li>
+      <li class="main-form__check-list-item">
+        <input type="checkbox" class="visualy-hidden" id="hotel" name="hotel">
+        <label for="hotel">Разгромил отель</label>
+      </li>
+    </ul>
+    <div class="main-form__contacts">
+      <div class="main-form__contacts-data">
+        <p class="main-form__contacts-title">НОМЕР ТЕЛЕФОНА</p>
+        <input type="text" class="main-form__contacts-text" placeholder="Номер пожалуйста">
+        </div>
+        <div class="main-form__contacts-data">
+          <p class="main-form__contacts-title">АДРЕС ПОЧТЫ</p>
+          <input type="text" class="main-form__contacts-text" placeholder="Введите почту*">
+          </div>
+    </div>
+    <div class="main-form__radio">
+      <p class="main-form__radio-title">С КАКИМ ПРИЛОЖЕНИЕМ<br>ПУТЕШЕСТВОВАЛИ?</p>
+      <div class="main-form__radio-item">
+        <input type="radio" class="visualy-hidden" id="ios" name="ios" checked>
+        <label for="ios">Pink для iOS</label>
+      </div>
+      <div class="main-form__radio-item">
+        <input type="radio" class="visualy-hidden" id="ios" name="ios">
+        <label for="ios">Pink на Android</label>
+      </div>
+      <div class="main-form__radio-item">
+        <input type="radio" class="visualy-hidden" id="ios" name="ios">
+        <label for="ios">Windows Phone</label>
+      </div>
+    </div>
+    <div class="main-form__textarea">
+    <p class="main-form__textarea-title">ОПИШИТЕ СВОИ ЭМОЦИИ</p>
+    <textarea class="main-form__textarea-text" placeholder="Можно прям в красках,не стесняясь в выражениях"></textarea>
+    </div>
+    <input class="main-form__submit" type="submit" value="ОТПРАВИТЬ ФОРМУ">
+    <p class="main-form__note">*&mdash;ОБЯЗАТЕЛЬНЫЕ ПОЛЯ</p>
+</form>
+</main>
+<footer>
+  <div class="footer__logo">
+    <a class="footer__logo-link" href="#">
+      <img class="footer__logo-image footer__logo-image--glasses" src="./img/glasses.svg" width="59px" height="40px" alt="Логотип">
+      <img class="footer__logo-image footer__logo-image--text" src="./img/pink.svg" width="74px" height="23px" alt="Логотип">
+    </a>
+  </div>
+  <div class="footer__social">
+    <div class="footer__social-item">
+      <a class="footer__social-item-link">
+        <img class="footer__social-image" src="./img/twitter.svg" width="18px" height="14px" alt="Логотип Твиттер">
+      </a>
+    </div>
+    <div class="footer__social-item">
+      <a class="footer__social-item-link">
+        <img class="footer__social-image" src="./img/facebook.svg" width="9px" height="18px" alt="Логотип Фейсбук">
+      </a>
+    </div>
+    <div class="footer__social-item">
+      <a class="footer__social-item-link">
+        <img class="footer__social-image" src="./img/youtube.svg" width="15px" height="13px" alt="Логотип Ютуб">
+      </a>
+    </div>
+  </div>
+  <div class="copyrights">
+    <span class="copyrights__text">Разработано</span>
+    <a class="copyrights__link">
+      <svg width="27" height="34" viewBox="0 0 27 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M13.6426 0.0157537L13.5 0L0 1.40733V26.0129L13.5 34L27 26.0129V1.40733L13.6426 0.0157537ZM25.2344 25.0151L13.5 31.9573L1.76561 25.0151V14.9293L13.4507 21.8451L13.4701 23.0984L5.45351 18.3548L5.44295 19.5801L13.4894 24.3885L13.5088 25.675L5.46408 20.9174L5.45351 22.1427L13.5 26.9511L21.6239 22.1182V20.8929V16.909L25.2432 14.7595L25.2344 25.0151ZM25.2344 13.4519L22.0147 15.3319L20.5325 16.2071L13.4666 12.0201L13.456 13.2454L19.4957 16.818L19.4429 16.8495L19.3126 16.9247L18.4536 17.4166L13.4666 14.4689L13.456 15.6942L17.3921 18.0222L16.4591 18.6314L16.438 18.6436L13.4666 16.902L13.456 18.1273L15.4029 19.2615L13.4155 20.4483L1.7973 13.5762L13.4349 6.61831L25.2344 13.4519ZM25.2344 12.2266L13.4401 5.31075L1.76561 12.2196V2.9897L13.5 1.76442L25.2344 2.9897V12.2266Z" fill="#D22856"/>
+        </svg>
+    </a>
+  </div>
+</footer>
+</body>
+</html>
