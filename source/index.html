@@ -38,10 +38,6 @@
           </div>
         <div class="promo">
         <span class="promo__title">Взгляните на жизнь иначе</span>
-        <div class="promo__image">
-          <img class="promo__image-phone" src="./img/phone.jpeg" width="320" height="286" alt="Телефон">
-          <img class="promo__image-screen" src="./img/screen.jpeg" width="111" height="197" alt="Дисплей телефона">
-        </div>
         </div>
         <div class="download">
           <div class="download__button">
@@ -80,73 +76,126 @@
     <div class="features">
       <ul class="features__list">
         <li class="features__list-item">
-          <span class="features__list-item-title">Поднимает настроение</span>
+          <h2 class="features__list-item-title">Поднимает настроение</h2>
           <span class="features__list-item-text">Приложение позволит вам победить осеннюю хандру и депрессию буквально в несколько кликов!</span>
         </li>
         <li class="features__list-item">
-          <span class="features__list-item-title">Меняет мир вокруг</span>
+          <h2 class="features__list-item-title">Меняет мир вокруг</h2>
           <span class="features__list-item-text">Сделайте снимок и украсьте его смайликом или текстовой подписью,что бы усилить эффект</span>
         </li>
         <li class="features__list-item">
-          <span class="features__list-item-title">Заводит новых друзей</span>
+          <h2 class="features__list-item-title">Заводит новых друзей</h2>
           <span class="features__list-item-text">Ставьте лайки, комментируйте, делитесь фотографиями с друзьями и заводите новых</span>
-        </li>
-        <li class="features__list-item">
-          <img class="features__list-item-phone" src="./img/iphone-features.png" width="157" height="320" alt="Телефон">
-          <img class="features__list-item-screen" src="./img/screen-features.png" width="136" height="245" alt="Дисплей">
         </li>
       </ul>
     </div>
         <div class="reviews">
-        <span class="reviews__title">Николай Петров</span>
-        <span class="reviews__text">&laquo;Это приложение перевернуло мой мир<br>и позволило по-новому взглянуть на<br>привычные серые вещи! А еще я<br> познакомился со своей будущей женой<br>в комментариях к выложеной<br>фотографии!&raquo;</span>
+          <ul class="reviews-list">
+            <li class="reviews-list__item">
+              <span class="reviews-list__item-title">Николай Петров</span>
+              <span class="reviews-list__item-text">&laquo;Это приложение перевернуло мой мир<br>и позволило по-новому взглянуть на<br>привычные серые вещи! А еще я<br> познакомился со своей будущей женой<br>в комментариях к выложеной<br>фотографии!&raquo;</span>
+            </li>
+        </ul>
         <div class="reviews__pagination">
-          <button class="reviews__pagination-button reviews__pagination-button--current" type="button"></button>
-          <button class="reviews__pagination-button" type="button"></button>
-          <button class="reviews__pagination-button" type="button"></button>
+          <ul class="pagination__list">
+            <li class="pagination__item">
+              <button class="pagination__item-button pagination__item-button--current" type="button"></button>
+            </li>
+            <li class="pagination__item">
+              <button class="pagination__item-button" type="button"></button>
+            </li>
+            <li class="pagination__item">
+              <button class="pagination__item-button" type="button"></button>
+            </li>
+          </ul>
         </div>
       </div>
       <div class="tariffs">
+        <div class="tariffs__item">
         <div class="tariffs__header">
           <p class="tariffs__header-title">СТАНДАРТ</p>
           <p class="tariffs__header-text">3,99 USD</p>
           <div class="tariffs__header-label">
-            <img class="tariffs__label-image" src="./img/ribbon.png" width="74" height="74" alt="Лейбл ХИТ">
+            <img class="tariffs__label-image" src="./img/ribbon.png" width="74" height="74" alt="Хит продаж">
             <span class="tariffs__label-text">ХИТ</span>
           </div>
         </div>
-        <div class="tariffs__item">
-          <span class="tariffs__item-description">РОЗОВЫЙ ФИЛЬТР</span>
-          <img class="tariffs__item-image" width="31" height="21" src="./img/yes.png" alt="Галочка">
+        <div class="tariffs__value">
+          <span class="tariffs__value-description">РОЗОВЫЙ ФИЛЬТР</span>
+          <img class="tariffs__value-image" width="31" height="21" src="./img/yes.png" alt="Доступно">
+        </div>
+        <div class="tariffs__value">
+          <span class="tariffs__value-description">СМАЙЛИКИ</span>
+          <img class="tariffs__value-image" width="31" height="21" src="./img/yes.png" alt="Доступно">
         </div>
         <div class="tariffs__item">
-          <span class="tariffs__item-description">СМАЙЛИКИ</span>
-          <img class="tariffs__item-image" width="31" height="21" src="./img/yes.png" alt="Галочка">
+          <span class="tariffs__value-description">КОММЕНТАРИИ</span>
+          <img class="tariffs__value-image" width="27" height="27" src="./img/no.png" alt="Не доступно">
+        </div>
         </div>
         <div class="tariffs__item">
-          <span class="tariffs__item-description">КОММЕНТАРИИ</span>
-          <img class="tariffs__item-image" width="27" height="27" src="./img/no.png" alt="Крестик">
+          <div class="tariffs__header">
+            <p class="tariffs__header-title">БАЗА</p>
+            <p class="tariffs__header-text">1,99 USD</p>
+          </div>
+          <div class="tariffs__value">
+            <span class="tariffs__value-description">РОЗОВЫЙ ФИЛЬТР</span>
+            <img class="tariffs__value-image" width="31" height="21" src="./img/yes.png" alt="Доступно">
+          </div>
+          <div class="tariffs__value">
+            <span class="tariffs__value-description">СМАЙЛИКИ</span>
+            <img class="tariffs__value-image" width="27" height="27" src="./img/no.png" alt="Не доступно">
+          </div>
+          <div class="tariffs__item">
+            <span class="tariffs__value-description">КОММЕНТАРИИ</span>
+            <img class="tariffs__value-image" width="27" height="27" src="./img/no.png" alt="Не доступно">
+          </div>
+          </div>
+          <div class="tariffs__item">
+            <div class="tariffs__header">
+              <p class="tariffs__header-title">АНЛИМ</p>
+              <p class="tariffs__header-text">9,99 USD</p>
+            </div>
+            <div class="tariffs__value">
+              <span class="tariffs__value-description">РОЗОВЫЙ ФИЛЬТР</span>
+              <img class="tariffs__value-image" width="31" height="21" src="./img/yes.png" alt="Доступно">
+            </div>
+            <div class="tariffs__value">
+              <span class="tariffs__value-description">СМАЙЛИКИ</span>
+              <img class="tariffs__value-image" width="31" height="21" src="./img/yes.png" alt="Доступно">
+            </div>
+            <div class="tariffs__item">
+              <span class="tariffs__value-description">КОММЕНТАРИИ</span>
+              <img class="tariffs__value-image" width="31" height="21" src="./img/yes.png" alt="Доступно">
+            </div>
+            </div>
         </div>
         <div class="tariffs__pagination">
-          <button class="tariffs__pagination-button" type="button"></button>
-          <button class="tariffs__pagination-button tariffs__pagination-button--current" type="button"></button>
-          <button class="tariffs__pagination-button" type="button"></button>
+          <ul class="pagination__list">
+            <li class="pagination__item">
+              <button class="pagination__item-button" type="button"></button>
+            </li>
+            <li class="pagination__item">
+              <button class="pagination__item-button pagination__item-button--current" type="button"></button>
+            </li>
+            <li class="pagination__item">
+              <button class="pagination__item-button" type="button"></button>
+            </li>
+          </ul>
         </div>
       </div>
       <section class="contacts">
-        <div class="contacts__title">
-          <span class="contacts__title-text">Остались вопросы?<br>Свяжитесь с нами!</span>
-        </div>
+          <p class="contacts__title-text">Остались вопросы?<br>Свяжитесь с нами!</p>
         <div class="contacts__item">
-          <span class="contacts__item-title">Звоните:</span>
+          <p class="contacts__item-title">Звоните:</p>
           <p class="contacts__item-text">+7(812)555-66-66</p>
         </div>
         <div class="contacts__item">
-          <span class="contacts__item-title">Пишите:</span>
+          <p class="contacts__item-title">Пишите:</p>
           <p class="contacts__item-text">mail@htmlacademy.ru</p>
         </div>
         <div class="contacts__item">
-          <span class="contacts__item-title">Приезжайте в гости:</span>
+          <p class="contacts__item-title">Приезжайте в гости:</p>
           <address class="contacts__item-text">ул. Большая<br>Конюшенная, 19/8</address>
         </div>
         <div class="contacts__map">
