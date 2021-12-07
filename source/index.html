@@ -36,44 +36,40 @@
             </li>
             </ul>
           </div>
-        <div class="promo">
-        <span class="promo__title">Взгляните на жизнь иначе</span>
-        </div>
-        <div class="download">
-          <div class="download__button">
-            <button type="button">Скачать приложение</button>
-          </div>
-          <ul class="download__list">
-            <li class="download__list-item">
-              <a class="download__list-link" href="#">
-                <img src="./img/apple-logo.png" width="47" height="56" alt="Логотип Apple">
-              </a>
-            </li>
-            <li class="download__list-item">
-              <a href="#">
-                <img src="./img/android-logo.png" width="43" height="47" alt="Логотип Android">
-              </a>
-            </li>
-            <li class="download__list-item">
-              <a href="#">
-                <img src="./img/microsoft-logo.png" width="41" height="41" alt="Логотип Microsoft">
-              </a>
-            </li>
-          </ul>
-          <span class="download__description"> Доступно для Iphone, Ipad, Android,<br> Windows Phone, OS X, Windows 8</span>
-        </div>
-    </nav>
+          </nav>
   </header>
   <main class="main-wrapper">
-    <div class="desicion">
-      <span class="desicion-item">
-        Устали от серости мегаполиса?
-      </span>
-      <span class="desicion-item">
-        Нам есть что,вам предложить!
-      </span>
-    </div>
+    <div class="promo">
+      <span class="promo__title">Взгляните на жизнь иначе</span>
+      </div>
+      <div class="download">
+        <div class="download__button">
+          <button type="button">Скачать приложение</button>
+        </div>
+        <ul class="download__list">
+          <li class="download__list-item">
+            <a class="download__list-link" href="#">
+              <img src="./img/apple-logo.png" width="47" height="56" alt="Логотип Apple">
+            </a>
+          </li>
+          <li class="download__list-item">
+            <a href="#">
+              <img src="./img/android-logo.png" width="43" height="47" alt="Логотип Android">
+            </a>
+          </li>
+          <li class="download__list-item">
+            <a href="#">
+              <img src="./img/microsoft-logo.png" width="41" height="41" alt="Логотип Microsoft">
+            </a>
+          </li>
+        </ul>
+        <span class="download__description"> Доступно для Iphone, Ipad, Android,<br> Windows Phone, OS X, Windows 8</span>
+      </div>
     <div class="features">
+      <p class="features-text">
+        Устали от серости мегаполиса?<br>
+        Нам есть что,вам предложить!
+      </p>
       <ul class="features__list">
         <li class="features__list-item">
           <h2 class="features__list-item-title">Поднимает настроение</h2>
@@ -92,8 +88,8 @@
         <div class="reviews">
           <ul class="reviews-list">
             <li class="reviews-list__item">
-              <span class="reviews-list__item-title">Николай Петров</span>
-              <span class="reviews-list__item-text">&laquo;Это приложение перевернуло мой мир<br>и позволило по-новому взглянуть на<br>привычные серые вещи! А еще я<br> познакомился со своей будущей женой<br>в комментариях к выложеной<br>фотографии!&raquo;</span>
+              <a class="reviews-list__item-title">Николай Петров</a>
+              <span class="reviews-list__item-text">&laquo;Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложеной фотографии!&raquo;</span>
             </li>
         </ul>
         <div class="reviews__pagination">
@@ -110,6 +106,7 @@
           </ul>
         </div>
       </div>
+      <!-- тарифы-tariffs мне так переводчик и выдал -->
       <div class="tariffs">
         <div class="tariffs__item">
         <div class="tariffs__header">
@@ -117,7 +114,6 @@
           <p class="tariffs__header-text">3,99 USD</p>
           <div class="tariffs__header-label">
             <img class="tariffs__label-image" src="./img/ribbon.png" width="74" height="74" alt="Хит продаж">
-            <span class="tariffs__label-text">ХИТ</span>
           </div>
         </div>
         <div class="tariffs__value">
@@ -183,24 +179,23 @@
             </li>
           </ul>
         </div>
+        <!-- Пагинация лежит в блоке "tariffs" -->
       </div>
       <section class="contacts">
           <p class="contacts__title-text">Остались вопросы?<br>Свяжитесь с нами!</p>
         <div class="contacts__item">
           <p class="contacts__item-title">Звоните:</p>
-          <p class="contacts__item-text">+7(812)555-66-66</p>
+          <a class="contacts__item-text">+7(812)555-66-66</a>
         </div>
         <div class="contacts__item">
           <p class="contacts__item-title">Пишите:</p>
-          <p class="contacts__item-text">mail@htmlacademy.ru</p>
+          <a class="contacts__item-text">mail@htmlacademy.ru</a>
         </div>
         <div class="contacts__item">
           <p class="contacts__item-title">Приезжайте в гости:</p>
           <address class="contacts__item-text">ул. Большая<br>Конюшенная, 19/8</address>
         </div>
         <div class="contacts__map">
-          <!-- С помощью z-index зафиксируем дивайдер поверх карты -->
-          <img class="contacts__map-divider" src="./img/divider.png" alt="Декоративный элемент страницы">
           <img class="contacts__map-image" src="./img/map.jpeg" width="320" height="200" alt="Карта проезда">
         </div>
       </section>
