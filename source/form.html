@@ -55,35 +55,35 @@
       <label class="main-form__data-title" for="second-name">ОТЧЕСТВО:</label>
       <input class="main-form__data-text" type="text" id="second-name" placeholder="Ну и отчество тоже*">
       </div>
-      <div class="main-form__check">
-        <p class="main-form__check-title">ВАШИ БЕЗБАШЕННЫЕ<br>ДОСТИЖЕНИЯ В ПУТЕШЕСТВИИ</p>
-      </div>
-      <ul class="main-form__check-list">
-        <li class="main-form__check-list-item">
-          <input class="visualy-hidden"s type="checkbox" id="selfie" name="selfie" checked>
-          <label class="main-form__check-list-item-label" for="selfie">Сделал селфи с акулой</label>
-        </li>
-        <li class="main-form__check-list-item">
-          <input class="visualy-hidden" type="checkbox" id="beach" name="beach" checked>
-          <label class="main-form__check-list-item-label for="beach">Обгорел на пляже</label>
-        </li>
-        <li class="main-form__check-list-item">
-          <input class="visualy-hidden" type="checkbox" id="chak" name="chak">
-          <label class="main-form__check-list-item-label for="chak">Видел Чака Норриса</label>
-        </li>
-        <li class="main-form__check-list-item">
-          <input class="visualy-hidden" type="checkbox" id="souvenirs" name="souvenirs">
-          <label class="main-form__check-list-item-label for="souvenirs">Накупил сувениров</label>
-        </li>
-        <li class="main-form__check-list-item">
-          <input class="visualy-hidden" type="checkbox" id="towet" name="tower" checked>
-          <label class="main-form__check-list-item-label for="tower">Удержал башню</label>
-        </li>
-        <li class="main-form__check-list-item">
-          <input class="visualy-hidden" type="checkbox" id="hotel" name="hotel">
-          <label class="main-form__check-list-item-label for="hotel">Разгромил отель</label>
-        </li>
-      </ul>
+      <fieldset class="main-form__check">
+        <legend class="main-form__check-title">ВАШИ БЕЗБАШЕННЫЕ ДОСТИЖЕНИЯ В ПУТЕШЕСТВИИ</legend>
+        <ul class="main-form__check-list">
+          <li class="main-form__check-list-item">
+            <input class="visualy-hidden"s type="checkbox" id="selfie" name="selfie" checked>
+            <label class="main-form__check-list-item-label" for="selfie">Сделал селфи с акулой</label>
+          </li>
+          <li class="main-form__check-list-item">
+            <input class="visualy-hidden" type="checkbox" id="beach" name="beach" checked>
+            <label class="main-form__check-list-item-label for="beach">Обгорел на пляже</label>
+          </li>
+          <li class="main-form__check-list-item">
+           <input class="visualy-hidden" type="checkbox" id="chak" name="chak">
+           <label class="main-form__check-list-item-label for="chak">Видел Чака Норриса</label>
+          </li>
+          <li class="main-form__check-list-item">
+            <input class="visualy-hidden" type="checkbox" id="souvenirs" name="souvenirs">
+            <label class="main-form__check-list-item-label for="souvenirs">Накупил сувениров</label>
+          </li>
+          <li class="main-form__check-list-item">
+            <input class="visualy-hidden" type="checkbox" id="towet" name="tower" checked>
+            <label class="main-form__check-list-item-label for="tower">Удержал башню</label>
+          </li>
+          <li class="main-form__check-list-item">
+            <input class="visualy-hidden" type="checkbox" id="hotel" name="hotel">
+            <label class="main-form__check-list-item-label for="hotel">Разгромил отель</label>
+          </li>
+        </ul>
+      </fieldset>
       <div class="main-form__contacts">
         <div class="main-form__contacts-data">
           <label class="main-form__contacts-title" for="phone" > НОМЕР ТЕЛЕФОНА</label>
@@ -94,8 +94,8 @@
             <input class="main-form__contacts-text" type="text" id="e-mail" placeholder="Введите почту*">
             </div>
       </div>
-      <div class="main-form__radio">
-        <p class="main-form__radio-title">С КАКИМ ПРИЛОЖЕНИЕМ<br>ПУТЕШЕСТВОВАЛИ?</p>
+      <fieldset class="main-form__radio">
+        <legend class="main-form__radio-title">С КАКИМ ПРИЛОЖЕНИЕМ<br>ПУТЕШЕСТВОВАЛИ?</legend>
         <div class="main-form__radio-item">
           <input type="radio" class="visualy-hidden" id="ios" name="ios" checked>
           <label for="ios">Pink для iOS</label>
@@ -108,11 +108,11 @@
           <input type="radio" class="visualy-hidden" id="windows" name="windows">
           <label for="windows">Windows Phone</label>
         </div>
-      </div>
-      <div class="main-form__textarea">
-      <p class="main-form__textarea-title">ОПИШИТЕ СВОИ ЭМОЦИИ</p>
+      </fieldset>
+      <fieldset class="main-form__textarea">
+      <legend class="main-form__textarea-title">ОПИШИТЕ СВОИ ЭМОЦИИ</legend>
       <textarea class="main-form__textarea-text" placeholder="Можно прям в красках,не стесняясь в выражениях"></textarea>
-      </div>
+      </fieldset>
       <button class="main-form__submit" type="submit">ОТПРАВИТЬ ФОРМУ</button>
       <p class="main-form__note">*&mdash;ОБЯЗАТЕЛЬНЫЕ ПОЛЯ</p>
   </form>
