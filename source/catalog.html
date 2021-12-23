@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>"Каталог PINK"</title>
+  <link rel="stylesheet" href="./css/style.css">
 </head>
 <body class="page__body">
   <header class="page-header">
@@ -41,16 +42,18 @@
       <p class="catalog__title-text">Фотографии пользователей</p>
     </div>
     <p class="catalog-description">Взгляните на фотографии, которые выкладывают пользователи! Видите,как не хватает ваших?</p>
-      <div class="catalog__item">
+      <div class="catalog__item--main">
         <a href="#" class="catalog__item-link">
           <img class="catalog__item-image" src="./img/panorama-tablet.jpeg" width="320" height="137" alt="Фото панорамы">
         </a>
       <div class="catalog__item-label">
         <span class="catalog__item-label-text">ПАНОРАМА ДНЯ</span>
       </div>
-      <div class="catalog__item-link">
-        <a href="#">Анна</a>
-        <span class="catalog__item-link-text">(5 МИНУТ НАЗАД)</span>
+      <div class="catalog__user">
+        <div class="catalog__user-name">
+        <span class="catalog__user-name">Анна</span>
+        <span class="catalog__user-visit">(5 МИНУТ НАЗАД)</span>
+        </div>
       </div>
       <p class="catalog__item-comment">Прыгать или нет? Напишите в комментарии свой совет и смотрите прямую трансляцию в перископе, задавайте свои вопросы!</p>
       <button class="catalog__item-marks" type="button">
@@ -183,8 +186,8 @@
       </div>
     </div>
     <div class="photo-creator__submit">
-      <button type="submit">Запостить</button>
-      <button type="reset">Отмена</button>
+      <button class="photo-creator__button photo-creator__button-submit" type="submit">Запостить</button>
+      <button class="photo-creator__button photo-creator__button-reset" type="reset">Отмена</button>
     </div>
   </form>
 </main>
