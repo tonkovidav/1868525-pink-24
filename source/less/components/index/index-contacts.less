@@ -3,6 +3,26 @@
   padding-top: 50px;
   padding-bottom: 22px;
   border: 3px solid rgb(0, 128, 0);
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: @tablet-width) {
+  .contacts__list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+
+@media (min-width: @desktop-width) {
+  .contacts__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 177px;
+    padding-right: 160px;
+  }
 }
 
 .contacts__title-text {
